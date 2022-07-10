@@ -1,0 +1,25 @@
+body{
+    background-image: url("/img/Back01.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+    /*no draggable*/
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-app-region: no-drag;
+    cursor: default;
+}
+
+#btn_01{
+position: relative;
+top: 195px;
+right: 0px;
+}
+
+#btn_02{
+    position: relative;
+    top: 195px;
+    left: 0px;
+}
+
